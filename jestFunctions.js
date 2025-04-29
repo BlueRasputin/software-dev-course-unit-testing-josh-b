@@ -24,5 +24,6 @@ function sortInventory(inventory, key) {
     return sortedArray;
 }
 
+
 sortedArray = sortInventory((a, b) => a - b);
 console.log(sortedArray);
